@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Gas Consumption Calcu</title>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="card-body mx-auto">
+      <img class="image-1" src="/img/blob.svg" alt="">
+      <img class="doodle" src="/img/open-doodles-reading-side.svg" alt="">
+      <img class="image-2" src="/img/blob2.svg" alt="">
+
+      <h1 class="heading">Calorie Fat Calcualtor</h1>
+      <form class="form-group">
+        <label for="calorie">Calorie</label>
+        <input type="text" class="form-control" id="calorie">
+        <small class="form-text text-muted">amount or percentage of calorie</small>
+      </form>
+
+      <form class="form-group">
+        <label for="fats">Fats</label>
+        <input type="text" class="form-control" id="fats">
+        <small class="form-text text-muted">amount or percentage of fat</small>
+      </form>
+
+      <button type="button" class="btn btn-primary btn-lg btn-block ">Calculate</button>
+    </div>
+
+
+  </div>
+
+  <div class="loader">
+    <img src="/img/5.gif" alt="">
+  </div>
+  <!-- Results -->
+
+  <div class="results mx-auto">
+    <h1>Total Calorie</h1>
+    <div class="label p-centered"></div>
+    <!-- <button id="clear" class="btn btn-success col-mx-auto col-12">Clear Results</button> -->
+
+    <button id="clear" type="button" class="btn btn-dark btn-lg btn-block ">Clear Results</button>
+  </div>
+
+
+
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>

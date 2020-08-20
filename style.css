@@ -1,0 +1,74 @@
+.label {
+  font-size: 30px;
+  text-align: center;
+  display: none;
+}
+
+.loader {
+  display: none;
+  text-align: center;
+}
+
+.toast {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  /* display: none; */
+}
+
+.btn-success {
+  border-radius: 0.4rem;
+  margin-top: 2rem;
+}
+
+#clear {
+  display: block;
+  max-width: 390px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.doodle {
+  position: relative;
+  z-index: 1;
+}
+
+.image-1 {
+  position: absolute;
+  max-width: 600px;
+  overflow: hidden;
+  left: -200px;
+  z-index: 0;
+}
+
+.image-2 {
+  position: absolute;
+  overflow: hidden;
+  max-width: 600px;
+
+  top: -150px;
+  right: -200px;
+  z-index: 0;
+}
+
+.card-body {
+  z-index: 1;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.form-group {
+  position: relative;
+  z-index: 1;
+}
+
+.heading {
+  position: relative;
+}
